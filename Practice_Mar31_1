@@ -1,0 +1,14 @@
+import openpyxl
+wb=openpyxl.load_workbook('C:/Users/yugan/Documents/Python Data 1200/Peter/realestatedata.xlsx')
+
+sheets = wb.sheetnames
+
+print("print all sheets in Excel Workbook")
+
+for x in sheets:
+    print(x)
+
+print("print type sheet")
+print(type(sheet))
+print("sheet name") 
+print(sheet.title)
